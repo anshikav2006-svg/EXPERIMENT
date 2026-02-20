@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.wallet {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.balance {
+    font-size: 28px;
+    margin: 20px 0;
+    font-weight: bold;
+    color: #4e73df;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.add-btn {
+    background: #1cc88a;
+    color: white;
+}
+
+.add-btn:hover {
+    background: #17a673;
+}
+
+.withdraw-btn {
+    background: #e74a3b;
+    color: white;
+}
+
+.withdraw-btn:hover {
+    background: #c0392b;
+}
+
+.message {
+    margin-top: 15px;
+    font-size: 14px;
+    font-weight: bold;
+}

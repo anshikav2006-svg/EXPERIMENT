@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+    <title>Simple Banking Wallet</title>
+    <link rel="stylesheet" href="SBW.css">
+</head>
+<body>
+
+<div class="wallet">
+    <h2>💰 My Wallet</h2>
+    <div class="balance">Balance: ₹<span id="balance">0</span></div>
+
+    <h3>Add Money</h3>
+    <button class="add-btn" onclick="addMoney(500)">+ ₹500</button>
+    <button class="add-btn" onclick="addMoney(1000)">+ ₹1000</button>
+    <button class="add-btn" onclick="addMoney(2000)">+ ₹2000</button>
+
+    <h3>Withdraw Money</h3>
+    <input type="number" id="withdrawAmount" placeholder="Enter amount" />
+    <br>
+    <button class="withdraw-btn" onclick="withdrawMoney()">Withdraw</button>
+
+    <div class="message" id="message"></div>
+</div>
+
+<script src="SBW.js"></script>
+</body>
+</html>
